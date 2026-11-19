@@ -1,0 +1,26 @@
+[
+ {
+  "id": "1981",
+  "nome": "Recessão de 1981–1982",
+  "rotulo": "1981–82",
+  "pico": "1981-07",
+  "vale": "1982-11",
+  "contexto": "Política monetária fortemente contracionista do Fed para conter a inflação; no Brasil, coincide com a crise da dívida externa."
+ },
+ {
+  "id": "2008",
+  "nome": "Grande Recessão (2007–2009)",
+  "rotulo": "2007–09",
+  "pico": "2007-12",
+  "vale": "2009-06",
+  "contexto": "Crise do crédito imobiliário e do sistema financeiro norte-americano, transmitida ao Brasil pelo crédito externo, câmbio e comércio."
+ },
+ {
+  "id": "2020",
+  "nome": "Recessão da Covid-19 (2020)",
+  "rotulo": "2020",
+  "pico": "2020-02",
+  "vale": "2020-04",
+  "contexto": "Choque sanitário com paralisação simultânea das atividades; a recessão mais curta da cronologia do NBER."
+ }
+]

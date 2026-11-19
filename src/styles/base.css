@@ -1,0 +1,185 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  background: var(--fundo);
+  color: var(--texto);
+  font-family: var(--fonte);
+  font-size: var(--t-4);
+  line-height: 1.5;
+}
+
+/*
+ * h1 e h2 na serifa de título (Caslon Display, peso único 400); h3 é rótulo e fica na sem-serifa,
+ * porque a Caslon Display perde os traços finos abaixo de ~19 px.
+ */
+h1,
+h2,
+h3 {
+  margin: 0;
+  color: var(--texto);
+}
+h1,
+h2 {
+  font-family: var(--fonte-titulo);
+  font-weight: 400;
+  text-wrap: balance;
+}
+h1 {
+  font-size: var(--t-1);
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+}
+h2 {
+  font-size: var(--t-2);
+  line-height: 1.2;
+}
+h3 {
+  font-family: var(--fonte);
+  font-size: var(--t-4);
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+p {
+  margin: 0;
+  text-wrap: pretty;
+}
+
+a {
+  color: inherit;
+  text-underline-offset: 2px;
+}
+
+button,
+select,
+input {
+  font: inherit;
+  color: inherit;
+}
+
+:focus-visible {
+  outline: 2px solid var(--foco);
+  outline-offset: 2px;
+}
+
+.num {
+  font-family: var(--fonte-num);
+  font-variant-numeric: tabular-nums;
+}
+
+.secundario {
+  color: var(--texto-2);
+}
+
+.nota {
+  font-size: var(--t-5);
+  line-height: 1.45;
+  color: var(--texto-3);
+}
+
+/* Controles de formulário compartilhados: mesma altura, mesmo fio, transições secas. */
+.controle {
+  height: 32px;
+  padding: 0 12px;
+  font-size: var(--t-4);
+  color: var(--texto);
+  background: var(--superficie);
+  border: 1px solid var(--controle);
+  border-radius: 2px;
+  transition: border-color var(--transicao), background-color var(--transicao);
+}
+.controle:hover {
+  border-color: var(--texto);
+}
+.controle:focus-visible {
+  outline: 2px solid var(--foco);
+  outline-offset: 1px;
+  border-color: var(--texto);
+}
+
+/*
+ * Tabelas no estilo editorial: fio de tinta sob o cabeçalho, fios claros entre linhas,
+ * números em Libre Franklin com algarismos de largura fixa, alinhados à direita.
+ */
+table.tabela {
+  width: 100%;
+  border-collapse: collapse;
+  font-variant-numeric: tabular-nums;
+}
+.tabela th,
+.tabela td {
+  text-align: left;
+  padding: 8px 16px 8px 0;
+  border-bottom: 1px solid var(--linha);
+  vertical-align: baseline;
+}
+.tabela th:last-child,
+.tabela td:last-child {
+  padding-right: 0;
+}
+.tabela thead th {
+  font-weight: 500;
+  font-size: var(--t-5);
+  line-height: 1.3;
+  color: var(--texto-2);
+  vertical-align: bottom;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--texto);
+}
+.tabela .n {
+  text-align: right;
+  font-family: var(--fonte-num);
+  font-variant-numeric: tabular-nums;
+}
+.tabela tbody tr:last-child td {
+  border-bottom-color: var(--referencia);
+}
+.tabela .vazio {
+  color: var(--texto-3);
+}
+
+/* Chave de legenda: traço da cor da série. */
+.chave {
+  display: inline-block;
+  width: 18px;
+  height: 0;
+  border-top: 3px solid currentColor;
+  border-radius: 2px;
+  vertical-align: middle;
+  margin-right: 6px;
+}
+.chave.tracejada {
+  border-top-style: dashed;
+}
+
+strong,
+b,
+.destaque {
+  font-weight: 600;
+}
+
+/*
+ * Seção de leitura: sem caixa. Um fio de tinta de 2 px abre a seção (como nas páginas de
+ * gráficos do FT) e o espaço separa uma seção da outra. Fio grosso = seção; fio fino = linhas
+ * de tabela e divisões internas.
+ */
+.painel {
+  border-top: 2px solid var(--texto);
+  padding: var(--esp-3) 0 0;
+}
+.painel > h2,
+.painel > header h2 {
+  font-size: var(--t-2);
+}
+.rotulo-painel {
+  font-size: var(--t-5);
+  font-weight: 500;
+  color: var(--texto-2);
+  letter-spacing: 0.01em;
+}

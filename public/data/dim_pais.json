@@ -1,0 +1,12 @@
+[
+ {
+  "id": "US",
+  "nome": "EUA",
+  "nome_completo": "Estados Unidos"
+ },
+ {
+  "id": "BR",
+  "nome": "Brasil",
+  "nome_completo": "Brasil"
+ }
+]

@@ -1,0 +1,338 @@
+[
+ {
+  "id": "us_prod_ind",
+  "codigo": "INDPRO",
+  "nome": "Produção industrial",
+  "pais": "US",
+  "grupo": "atividade",
+  "descricao": "Volume da produção da indústria, mineração e serviços de utilidade pública dos EUA.",
+  "fonte": {
+   "portal": "FRED",
+   "produtor": "Federal Reserve Bank of St. Louis",
+   "url": "https://fred.stlouisfed.org"
+  },
+  "unidade_original": "Índice 2017 = 100",
+  "unidade_painel": "Índice (pico = 100)",
+  "frequencia": "mensal",
+  "ajuste_sazonal": true,
+  "metodo": {
+   "tipo": "indice",
+   "versao": "1.0",
+   "descricao": "Número-índice com o mês de pico = 100"
+  },
+  "sentido_crise": "queda",
+  "limiar_reacao": 2.0,
+  "periodo_inicio": "1919-01",
+  "periodo_fim": "2026-09",
+  "mudancas_metodologia": [],
+  "id_serie_par": "br_prod_ind",
+  "episodios_sem_dados": []
+ },
+ {
+  "id": "br_prod_ind",
+  "codigo": "PIM-PF (Ipeadata)",
+  "nome": "Produção industrial",
+  "pais": "BR",
+  "grupo": "atividade",
+  "descricao": "Produção física da indústria geral brasileira (Pesquisa Industrial Mensal, IBGE).",
+  "fonte": {
+   "portal": "Ipeadata",
+   "produtor": "Ipea",
+   "url": "http://www.ipeadata.gov.br"
+  },
+  "unidade_original": "Índice 2022 = 100",
+  "unidade_painel": "Índice (pico = 100)",
+  "frequencia": "mensal",
+  "ajuste_sazonal": true,
+  "metodo": {
+   "tipo": "indice",
+   "versao": "1.0",
+   "descricao": "Número-índice com o mês de pico = 100"
+  },
+  "sentido_crise": "queda",
+  "limiar_reacao": 2.0,
+  "periodo_inicio": "1975-01",
+  "periodo_fim": "2026-09",
+  "mudancas_metodologia": [
+   {
+    "data": "2002-01",
+    "descricao": "Nova amostra e ponderação da PIM-PF; série anterior encadeada pelo Ipea."
+   },
+   {
+    "data": "2023-07",
+    "descricao": "Reformulação com base 2022 = 100."
+   }
+  ],
+  "id_serie_par": "us_prod_ind",
+  "episodios_sem_dados": []
+ },
+ {
+  "id": "us_desemprego",
+  "codigo": "UNRATE",
+  "nome": "Taxa de desemprego",
+  "pais": "US",
+  "grupo": "trabalho",
+  "descricao": "Pessoas desocupadas em relação à força de trabalho, pesquisa domiciliar (CPS).",
+  "fonte": {
+   "portal": "FRED",
+   "produtor": "Federal Reserve Bank of St. Louis",
+   "url": "https://fred.stlouisfed.org"
+  },
+  "unidade_original": "% da força de trabalho",
+  "unidade_painel": "Variação em p.p. desde o pico",
+  "frequencia": "mensal",
+  "ajuste_sazonal": true,
+  "metodo": {
+   "tipo": "pp",
+   "versao": "1.0",
+   "descricao": "Diferença em pontos percentuais em relação ao mês de pico"
+  },
+  "sentido_crise": "alta",
+  "limiar_reacao": 0.5,
+  "periodo_inicio": "1948-01",
+  "periodo_fim": "2026-09",
+  "mudancas_metodologia": [],
+  "id_serie_par": "br_desemprego",
+  "episodios_sem_dados": []
+ },
+ {
+  "id": "br_desemprego",
+  "codigo": "PNADC – 24369 (SGS)",
+  "nome": "Taxa de desocupação",
+  "pais": "BR",
+  "grupo": "trabalho",
+  "descricao": "Taxa de desocupação da PNAD Contínua (IBGE), divulgada em trimestres móveis.",
+  "fonte": {
+   "portal": "SGS",
+   "produtor": "Banco Central do Brasil",
+   "url": "https://www3.bcb.gov.br/sgspub"
+  },
+  "unidade_original": "% da força de trabalho",
+  "unidade_painel": "Variação em p.p. desde o pico",
+  "frequencia": "mensal (trimestre móvel)",
+  "ajuste_sazonal": false,
+  "metodo": {
+   "tipo": "pp",
+   "versao": "1.0",
+   "descricao": "Diferença em pontos percentuais em relação ao mês de pico"
+  },
+  "sentido_crise": "alta",
+  "limiar_reacao": 0.5,
+  "periodo_inicio": "2012-03",
+  "periodo_fim": "2026-09",
+  "mudancas_metodologia": [
+   {
+    "data": "2012-03",
+    "descricao": "Início da PNAD Contínua. A PME (2002–2016) cobria só seis regiões metropolitanas e não é comparável; por isso não há dados para 1981–82 e 2007–09."
+   }
+  ],
+  "id_serie_par": "us_desemprego",
+  "episodios_sem_dados": [
+   "1981",
+   "2008"
+  ]
+ },
+ {
+  "id": "us_juros",
+  "codigo": "FEDFUNDS",
+  "nome": "Taxa básica de juros (Fed Funds)",
+  "pais": "US",
+  "grupo": "juros",
+  "descricao": "Taxa efetiva dos fundos federais, referência da política monetária dos EUA.",
+  "fonte": {
+   "portal": "FRED",
+   "produtor": "Federal Reserve Bank of St. Louis",
+   "url": "https://fred.stlouisfed.org"
+  },
+  "unidade_original": "% ao ano",
+  "unidade_painel": "Variação em p.p. desde o pico",
+  "frequencia": "mensal",
+  "ajuste_sazonal": false,
+  "metodo": {
+   "tipo": "pp",
+   "versao": "1.0",
+   "descricao": "Diferença em pontos percentuais em relação ao mês de pico"
+  },
+  "sentido_crise": "neutro",
+  "limiar_reacao": 0.5,
+  "periodo_inicio": "1954-07",
+  "periodo_fim": "2026-09",
+  "mudancas_metodologia": [],
+  "id_serie_par": "br_juros",
+  "episodios_sem_dados": []
+ },
+ {
+  "id": "br_juros",
+  "codigo": "4189 (SGS)",
+  "nome": "Taxa Selic",
+  "pais": "BR",
+  "grupo": "juros",
+  "descricao": "Taxa Selic acumulada no mês, anualizada (base 252 dias úteis).",
+  "fonte": {
+   "portal": "SGS",
+   "produtor": "Banco Central do Brasil",
+   "url": "https://www3.bcb.gov.br/sgspub"
+  },
+  "unidade_original": "% ao ano",
+  "unidade_painel": "Variação em p.p. desde o pico",
+  "frequencia": "mensal",
+  "ajuste_sazonal": false,
+  "metodo": {
+   "tipo": "pp",
+   "versao": "1.0",
+   "descricao": "Diferença em pontos percentuais em relação ao mês de pico"
+  },
+  "sentido_crise": "neutro",
+  "limiar_reacao": 0.5,
+  "periodo_inicio": "1986-07",
+  "periodo_fim": "2026-09",
+  "mudancas_metodologia": [
+   {
+    "data": "1986-07",
+    "descricao": "Início da série. Para 1981–82 não há taxa Selic comparável."
+   }
+  ],
+  "id_serie_par": "us_juros",
+  "episodios_sem_dados": [
+   "1981"
+  ]
+ },
+ {
+  "id": "us_inflacao",
+  "codigo": "CPIAUCSL (var. 12 meses)",
+  "nome": "Inflação ao consumidor (CPI)",
+  "pais": "US",
+  "grupo": "precos",
+  "descricao": "Variação em 12 meses do índice de preços ao consumidor urbano dos EUA.",
+  "fonte": {
+   "portal": "FRED",
+   "produtor": "Federal Reserve Bank of St. Louis",
+   "url": "https://fred.stlouisfed.org"
+  },
+  "unidade_original": "% em 12 meses",
+  "unidade_painel": "Variação em p.p. desde o pico",
+  "frequencia": "mensal",
+  "ajuste_sazonal": true,
+  "metodo": {
+   "tipo": "pp",
+   "versao": "1.0",
+   "descricao": "Diferença em pontos percentuais em relação ao mês de pico"
+  },
+  "sentido_crise": "neutro",
+  "limiar_reacao": 0.5,
+  "periodo_inicio": "1947-01",
+  "periodo_fim": "2026-09",
+  "mudancas_metodologia": [
+   {
+    "data": "1983-01",
+    "descricao": "Mudança no tratamento do custo de moradia (equivalente de aluguel)."
+   }
+  ],
+  "id_serie_par": "br_inflacao",
+  "episodios_sem_dados": []
+ },
+ {
+  "id": "br_inflacao",
+  "codigo": "433 (SGS, acum. 12 meses)",
+  "nome": "Inflação ao consumidor (IPCA)",
+  "pais": "BR",
+  "grupo": "precos",
+  "descricao": "Variação em 12 meses do IPCA (IBGE), índice oficial de inflação do Brasil.",
+  "fonte": {
+   "portal": "SGS",
+   "produtor": "Banco Central do Brasil",
+   "url": "https://www3.bcb.gov.br/sgspub"
+  },
+  "unidade_original": "% em 12 meses",
+  "unidade_painel": "Variação em p.p. desde o pico",
+  "frequencia": "mensal",
+  "ajuste_sazonal": false,
+  "metodo": {
+   "tipo": "pp",
+   "versao": "1.0",
+   "descricao": "Diferença em pontos percentuais em relação ao mês de pico"
+  },
+  "sentido_crise": "neutro",
+  "limiar_reacao": 0.5,
+  "periodo_inicio": "1980-01",
+  "periodo_fim": "2026-09",
+  "mudancas_metodologia": [
+   {
+    "data": "1994-07",
+    "descricao": "Plano Real: troca de moeda. Antes disso, valores refletem regime de alta inflação; compare com cautela."
+   }
+  ],
+  "id_serie_par": "us_inflacao",
+  "episodios_sem_dados": []
+ },
+ {
+  "id": "br_cambio",
+  "codigo": "3698 (SGS, deflacionado)",
+  "nome": "Câmbio real R$/US$",
+  "pais": "BR",
+  "grupo": "externo",
+  "descricao": "Taxa de câmbio comercial de venda, média do mês, descontada a inflação (alta = real mais desvalorizado).",
+  "fonte": {
+   "portal": "SGS",
+   "produtor": "Banco Central do Brasil",
+   "url": "https://www3.bcb.gov.br/sgspub"
+  },
+  "unidade_original": "R$ por US$ (preços de 2026)",
+  "unidade_painel": "Índice (pico = 100)",
+  "frequencia": "mensal",
+  "ajuste_sazonal": false,
+  "metodo": {
+   "tipo": "indice",
+   "versao": "1.0",
+   "descricao": "Número-índice com o mês de pico = 100"
+  },
+  "sentido_crise": "alta",
+  "limiar_reacao": 2.0,
+  "periodo_inicio": "1980-01",
+  "periodo_fim": "2026-09",
+  "mudancas_metodologia": [
+   {
+    "data": "1999-01",
+    "descricao": "Fim da banda cambial e adoção do câmbio flutuante."
+   }
+  ],
+  "id_serie_par": null,
+  "episodios_sem_dados": []
+ },
+ {
+  "id": "br_exportacoes",
+  "codigo": "Exportações FOB (Comex Stat)",
+  "nome": "Exportações de bens",
+  "pais": "BR",
+  "grupo": "externo",
+  "descricao": "Valor das exportações brasileiras de bens, em dólares, suavizado por média móvel de 3 meses.",
+  "fonte": {
+   "portal": "Comex Stat",
+   "produtor": "MDIC",
+   "url": "https://comexstat.mdic.gov.br"
+  },
+  "unidade_original": "US$ milhões FOB (média móvel 3 meses)",
+  "unidade_painel": "Índice (pico = 100)",
+  "frequencia": "mensal",
+  "ajuste_sazonal": false,
+  "metodo": {
+   "tipo": "indice",
+   "versao": "1.0",
+   "descricao": "Número-índice com o mês de pico = 100"
+  },
+  "sentido_crise": "queda",
+  "limiar_reacao": 2.0,
+  "periodo_inicio": "1997-01",
+  "periodo_fim": "2026-09",
+  "mudancas_metodologia": [
+   {
+    "data": "1997-01",
+    "descricao": "Início da série no Comex Stat. Para 1981–82 seria preciso usar estatísticas históricas do Banco Central, ainda não integradas."
+   }
+  ],
+  "id_serie_par": null,
+  "episodios_sem_dados": [
+   "1981"
+  ]
+ }
+]

@@ -1,0 +1,90 @@
+[
+ {
+  "id_execucao": "exec-001",
+  "inicio": "2026-08-03T06:00",
+  "duracao_min": 12,
+  "tipo": "atualizacao",
+  "status": "sucesso",
+  "series_processadas": 10,
+  "registros": 2198,
+  "id_edicao": "2026.08-1",
+  "observacao": ""
+ },
+ {
+  "id_execucao": "exec-002",
+  "inicio": "2026-08-17T06:00",
+  "duracao_min": 11,
+  "tipo": "atualizacao",
+  "status": "sucesso",
+  "series_processadas": 10,
+  "registros": 2203,
+  "id_edicao": "2026.08-2",
+  "observacao": ""
+ },
+ {
+  "id_execucao": "exec-003",
+  "inicio": "2026-08-31T06:00",
+  "duracao_min": 14,
+  "tipo": "atualizacao",
+  "status": "sucesso",
+  "series_processadas": 10,
+  "registros": 2205,
+  "id_edicao": "2026.08-3",
+  "observacao": ""
+ },
+ {
+  "id_execucao": "exec-004",
+  "inicio": "2026-09-14T06:00",
+  "duracao_min": 3,
+  "tipo": "atualizacao",
+  "status": "falha",
+  "series_processadas": 4,
+  "registros": 640,
+  "id_edicao": "2026.09-4",
+  "observacao": "Ipeadata indisponível (HTTP 503); 3 tentativas automáticas sem sucesso."
+ },
+ {
+  "id_execucao": "exec-005",
+  "inicio": "2026-09-28T06:00",
+  "duracao_min": 13,
+  "tipo": "atualizacao",
+  "status": "sucesso",
+  "series_processadas": 10,
+  "registros": 2210,
+  "id_edicao": "2026.09-5",
+  "observacao": ""
+ },
+ {
+  "id_execucao": "exec-006",
+  "inicio": "2026-10-12T06:00",
+  "duracao_min": 6,
+  "tipo": "reprocessamento",
+  "status": "sucesso",
+  "series_processadas": 10,
+  "registros": 2210,
+  "id_edicao": "2026.09-6",
+  "observacao": "Reprocessado após correção da regra de deflação do câmbio (v1.0)."
+ },
+ {
+  "id_execucao": "exec-007",
+  "inicio": "2026-10-26T06:00",
+  "duracao_min": 12,
+  "tipo": "atualizacao",
+  "status": "sucesso",
+  "series_processadas": 10,
+  "registros": 2214,
+  "id_edicao": "2026.10-7",
+  "observacao": ""
+ },
+ {
+  "id_execucao": "exec-008",
+  "inicio": "2026-11-09T06:00",
+  "duracao_min": 12,
+  "tipo": "atualizacao",
+  "status": "sucesso",
+  "series_processadas": 10,
+  "registros": 2220,
+  "id_edicao": "2026.11-ilustrativa",
+  "observacao": ""
+ }
+]

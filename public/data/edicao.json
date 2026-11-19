@@ -1,0 +1,11 @@
+{
+ "id_edicao": "2026.11-ilustrativa",
+ "gerado_em": "2026-11-10T07:12",
+ "ilustrativo": true,
+ "janela_meses": [
+  -24,
+  48
+ ],
+ "janela_medidas_meses": 48,
+ "aviso": "Dados ilustrativos gerados para desenvolvimento do painel. Não usar em análises."
+}

@@ -1,0 +1,98 @@
+[
+ {
+  "id_episodio": "1981",
+  "id_serie_eua": "us_prod_ind",
+  "id_serie_br": "br_prod_ind",
+  "defasagem_meses": -1,
+  "diferenca_variacao": -5.93,
+  "id_edicao": "2026.11-ilustrativa"
+ },
+ {
+  "id_episodio": "2008",
+  "id_serie_eua": "us_prod_ind",
+  "id_serie_br": "br_prod_ind",
+  "defasagem_meses": 4,
+  "diferenca_variacao": -1.88,
+  "id_edicao": "2026.11-ilustrativa"
+ },
+ {
+  "id_episodio": "2020",
+  "id_serie_eua": "us_prod_ind",
+  "id_serie_br": "br_prod_ind",
+  "defasagem_meses": 0,
+  "diferenca_variacao": -6.96,
+  "id_edicao": "2026.11-ilustrativa"
+ },
+ {
+  "id_episodio": "1981",
+  "id_serie_eua": "us_desemprego",
+  "id_serie_br": "br_desemprego",
+  "defasagem_meses": null,
+  "diferenca_variacao": null,
+  "id_edicao": "2026.11-ilustrativa"
+ },
+ {
+  "id_episodio": "2008",
+  "id_serie_eua": "us_desemprego",
+  "id_serie_br": "br_desemprego",
+  "defasagem_meses": null,
+  "diferenca_variacao": null,
+  "id_edicao": "2026.11-ilustrativa"
+ },
+ {
+  "id_episodio": "2020",
+  "id_serie_eua": "us_desemprego",
+  "id_serie_br": "br_desemprego",
+  "defasagem_meses": 1,
+  "diferenca_variacao": -5.75,
+  "id_edicao": "2026.11-ilustrativa"
+ },
+ {
+  "id_episodio": "1981",
+  "id_serie_eua": "us_juros",
+  "id_serie_br": "br_juros",
+  "defasagem_meses": null,
+  "diferenca_variacao": null,
+  "id_edicao": "2026.11-ilustrativa"
+ },
+ {
+  "id_episodio": "2008",
+  "id_serie_eua": "us_juros",
+  "id_serie_br": "br_juros",
+  "defasagem_meses": 2,
+  "diferenca_variacao": 1.81,
+  "id_edicao": "2026.11-ilustrativa"
+ },
+ {
+  "id_episodio": "2020",
+  "id_serie_eua": "us_juros",
+  "id_serie_br": "br_juros",
+  "defasagem_meses": 1,
+  "diferenca_variacao": 5.71,
+  "id_edicao": "2026.11-ilustrativa"
+ },
+ {
+  "id_episodio": "1981",
+  "id_serie_eua": "us_inflacao",
+  "id_serie_br": "br_inflacao",
+  "defasagem_meses": -1,
+  "diferenca_variacao": 128.28,
+  "id_edicao": "2026.11-ilustrativa"
+ },
+ {
+  "id_episodio": "2008",
+  "id_serie_eua": "us_inflacao",
+  "id_serie_br": "br_inflacao",
+  "defasagem_meses": -1,
+  "diferenca_variacao": 7.78,
+  "id_edicao": "2026.11-ilustrativa"
+ },
+ {
+  "id_episodio": "2020",
+  "id_serie_eua": "us_inflacao",
+  "id_serie_br": "br_inflacao",
+  "defasagem_meses": 0,
+  "diferenca_variacao": 1.21,
+  "id_edicao": "2026.11-ilustrativa"
+ }
+]

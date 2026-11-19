@@ -1,0 +1,98 @@
+/*
+ * Tokens de design. Três camadas, e só elas:
+ * 1. Papel, em duas zonas: --capa (faixa de papel quente no topo, com título, linha do tempo e abas)
+ *    e --fundo (área de leitura, branca, onde ficam os gráficos). As medidas ficam numa coluna
+ *    --lateral, um tom acima do branco. Seções se separam por espaço e um fio de tinta, não por caixas.
+ * 2. Tinta: --texto (títulos e valores), --texto-2 (rótulos e eixos), --texto-3 (notas).
+ * 3. Dados: --cat-1 a --cat-3 para os episódios (petróleo, bordô, ocre), todas acima de 3:1
+ *    sobre o papel (WCAG 1.4.11). Países não usam matiz: Brasil em tinta, EUA em cinza-ardósia.
+ * --nber: faixa de recessão, como o FRED sombreia as recessões do NBER.
+ * Tipografia editorial, duas famílias OFL instaladas pelo npm (funcionam sem internet):
+ *   --fonte-titulo: Libre Caslon Display, só a partir de 19 px (título do painel, conclusões, seções,
+ *   anos dos episódios e números das medidas). Tem um peso só (400): nunca negritar.
+ *   --fonte: Libre Franklin 400/500/600 para todo o resto (controles, rótulos, eixos, tabelas).
+ * Escala com saltos: 30 / 21 / 17 / 14 / 12,5 px, mais --t-num (19 px) para os números das medidas.
+ */
+:root {
+  color-scheme: light;
+  --fonte: 'Libre Franklin', 'Franklin Gothic Medium', 'Segoe UI', system-ui, sans-serif;
+  --fonte-titulo: 'Libre Caslon Display', 'Libre Caslon Text', Georgia, 'Times New Roman', serif;
+  --fonte-num: var(--fonte);
+
+  --fundo: #ffffff;
+  --superficie: #ffffff;
+  --capa: #f3f0ea;
+  --lateral: #f8f6f2;
+  --faixa-fora: #d6d0c5;
+  --fundo-2: #eae7e0;
+  --texto: #1c1e21;
+  --texto-2: #50565f;
+  --texto-3: #666c75;
+  --nber: #e6e2d9;
+  --linha: #dedad1;
+  --grade: #ebe8e1;
+  --referencia: #8a8f97;
+  --controle: #8b9098;
+  --foco: #1c1e21;
+  --aviso: #8a5a00;
+  --ok: #1f6f3d;
+  --falha: #b3261e;
+
+  --cat-1: #0f5c6e;
+  --cat-2: #9e2a2b;
+  --cat-3: #a8700a;
+  --cat-4: #5b4a8a;
+  --cat-5: #3d6b35;
+  --pais-foco: #1c1e21;
+  --pais-contexto: #6f7985;
+
+  --t-1: 30px;
+  --t-2: 21px;
+  --t-3: 17px;
+  --t-4: 14px;
+  --t-5: 12.5px;
+  --t-num: 19px;
+  --t-texto: 15px;
+
+  --esp-1: 4px;
+  --esp-2: 8px;
+  --esp-3: 12px;
+  --esp-4: 16px;
+  --esp-6: 24px;
+  --esp-8: 32px;
+  --esp-12: 48px;
+  --esp-16: 64px;
+  --transicao: 120ms linear;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --fundo: #161719;
+    --superficie: #1e2023;
+    --capa: #1f2124;
+    --lateral: #1c1e21;
+    --faixa-fora: #3b3e44;
+    --fundo-2: #26282c;
+    --texto: #ecebe7;
+    --texto-2: #b9bbbf;
+    --texto-3: #9a9da3;
+    --nber: #2f3136;
+    --linha: #303237;
+    --grade: #292b2f;
+    --referencia: #7d8188;
+    --controle: #777b83;
+    --foco: #ecebe7;
+    --aviso: #e0b04a;
+    --ok: #62c483;
+    --falha: #ef8078;
+
+    --cat-1: #4fb3c8;
+    --cat-2: #e8817f;
+    --cat-3: #d9a441;
+    --cat-4: #a99be0;
+    --cat-5: #86bd7c;
+    --pais-foco: #ecebe7;
+    --pais-contexto: #8f96a0;
+  }
+}

@@ -1,0 +1,298 @@
+[
+ {
+  "id_serie": "us_prod_ind",
+  "id_episodio": "1981",
+  "variacao_pico_vale": -8.78,
+  "meses_ate_vale": 15,
+  "meses_ate_recuperacao": 28,
+  "situacao_recuperacao": "recuperado",
+  "mes_reacao": 5,
+  "id_edicao": "2026.11-ilustrativa"
+ },
+ {
+  "id_serie": "us_prod_ind",
+  "id_episodio": "2008",
+  "variacao_pico_vale": -16.97,
+  "meses_ate_vale": 18,
+  "meses_ate_recuperacao": null,
+  "situacao_recuperacao": "nao_recuperado",
+  "mes_reacao": 6,
+  "id_edicao": "2026.11-ilustrativa"
+ },
+ {
+  "id_serie": "us_prod_ind",
+  "id_episodio": "2020",
+  "variacao_pico_vale": -12.9,
+  "meses_ate_vale": 2,
+  "meses_ate_recuperacao": 23,
+  "situacao_recuperacao": "recuperado",
+  "mes_reacao": 1,
+  "id_edicao": "2026.11-ilustrativa"
+ },
+ {
+  "id_serie": "br_prod_ind",
+  "id_episodio": "1981",
+  "variacao_pico_vale": -14.71,
+  "meses_ate_vale": 15,
+  "meses_ate_recuperacao": 40,
+  "situacao_recuperacao": "recuperado",
+  "mes_reacao": 4,
+  "id_edicao": "2026.11-ilustrativa"
+ },
+ {
+  "id_serie": "br_prod_ind",
+  "id_episodio": "2008",
+  "variacao_pico_vale": -18.85,
+  "meses_ate_vale": 13,
+  "meses_ate_recuperacao": 23,
+  "situacao_recuperacao": "recuperado",
+  "mes_reacao": 10,
+  "id_edicao": "2026.11-ilustrativa"
+ },
+ {
+  "id_serie": "br_prod_ind",
+  "id_episodio": "2020",
+  "variacao_pico_vale": -19.86,
+  "meses_ate_vale": 2,
+  "meses_ate_recuperacao": 7,
+  "situacao_recuperacao": "recuperado",
+  "mes_reacao": 1,
+  "id_edicao": "2026.11-ilustrativa"
+ },
+ {
+  "id_serie": "us_desemprego",
+  "id_episodio": "1981",
+  "variacao_pico_vale": 3.52,
+  "meses_ate_vale": 16,
+  "meses_ate_recuperacao": 40,
+  "situacao_recuperacao": "recuperado",
+  "mes_reacao": 3,
+  "id_edicao": "2026.11-ilustrativa"
+ },
+ {
+  "id_serie": "us_desemprego",
+  "id_episodio": "2008",
+  "variacao_pico_vale": 5.07,
+  "meses_ate_vale": 22,
+  "meses_ate_recuperacao": null,
+  "situacao_recuperacao": "nao_recuperado",
+  "mes_reacao": 7,
+  "id_edicao": "2026.11-ilustrativa"
+ },
+ {
+  "id_serie": "us_desemprego",
+  "id_episodio": "2020",
+  "variacao_pico_vale": 8.9,
+  "meses_ate_vale": 3,
+  "meses_ate_recuperacao": null,
+  "situacao_recuperacao": "nao_recuperado",
+  "mes_reacao": 1,
+  "id_edicao": "2026.11-ilustrativa"
+ },
+ {
+  "id_serie": "br_desemprego",
+  "id_episodio": "1981",
+  "variacao_pico_vale": null,
+  "meses_ate_vale": null,
+  "meses_ate_recuperacao": null,
+  "situacao_recuperacao": "sem_dados",
+  "id_edicao": "2026.11-ilustrativa"
+ },
+ {
+  "id_serie": "br_desemprego",
+  "id_episodio": "2008",
+  "variacao_pico_vale": null,
+  "meses_ate_vale": null,
+  "meses_ate_recuperacao": null,
+  "situacao_recuperacao": "sem_dados",
+  "id_edicao": "2026.11-ilustrativa"
+ },
+ {
+  "id_serie": "br_desemprego",
+  "id_episodio": "2020",
+  "variacao_pico_vale": 3.15,
+  "meses_ate_vale": 11,
+  "meses_ate_recuperacao": 24,
+  "situacao_recuperacao": "recuperado",
+  "mes_reacao": 2,
+  "id_edicao": "2026.11-ilustrativa"
+ },
+ {
+  "id_serie": "us_juros",
+  "id_episodio": "1981",
+  "variacao_pico_vale": -11.12,
+  "meses_ate_vale": 48,
+  "meses_ate_recuperacao": null,
+  "situacao_recuperacao": "nao_se_aplica",
+  "mes_reacao": 1,
+  "id_edicao": "2026.11-ilustrativa"
+ },
+ {
+  "id_serie": "us_juros",
+  "id_episodio": "2008",
+  "variacao_pico_vale": -4.22,
+  "meses_ate_vale": 36,
+  "meses_ate_recuperacao": null,
+  "situacao_recuperacao": "nao_se_aplica",
+  "mes_reacao": 1,
+  "id_edicao": "2026.11-ilustrativa"
+ },
+ {
+  "id_serie": "us_juros",
+  "id_episodio": "2020",
+  "variacao_pico_vale": 3.87,
+  "meses_ate_vale": 48,
+  "meses_ate_recuperacao": null,
+  "situacao_recuperacao": "nao_se_aplica",
+  "mes_reacao": 1,
+  "id_edicao": "2026.11-ilustrativa"
+ },
+ {
+  "id_serie": "br_juros",
+  "id_episodio": "1981",
+  "variacao_pico_vale": null,
+  "meses_ate_vale": null,
+  "meses_ate_recuperacao": null,
+  "situacao_recuperacao": "sem_dados",
+  "id_edicao": "2026.11-ilustrativa"
+ },
+ {
+  "id_serie": "br_juros",
+  "id_episodio": "2008",
+  "variacao_pico_vale": -2.41,
+  "meses_ate_vale": 19,
+  "meses_ate_recuperacao": null,
+  "situacao_recuperacao": "nao_se_aplica",
+  "mes_reacao": 3,
+  "id_edicao": "2026.11-ilustrativa"
+ },
+ {
+  "id_serie": "br_juros",
+  "id_episodio": "2020",
+  "variacao_pico_vale": 9.58,
+  "meses_ate_vale": 48,
+  "meses_ate_recuperacao": null,
+  "situacao_recuperacao": "nao_se_aplica",
+  "mes_reacao": 2,
+  "id_edicao": "2026.11-ilustrativa"
+ },
+ {
+  "id_serie": "us_inflacao",
+  "id_episodio": "1981",
+  "variacao_pico_vale": -8.11,
+  "meses_ate_vale": 22,
+  "meses_ate_recuperacao": null,
+  "situacao_recuperacao": "nao_se_aplica",
+  "mes_reacao": 2,
+  "id_edicao": "2026.11-ilustrativa"
+ },
+ {
+  "id_serie": "us_inflacao",
+  "id_episodio": "2008",
+  "variacao_pico_vale": -5.75,
+  "meses_ate_vale": 18,
+  "meses_ate_recuperacao": null,
+  "situacao_recuperacao": "nao_se_aplica",
+  "mes_reacao": 3,
+  "id_edicao": "2026.11-ilustrativa"
+ },
+ {
+  "id_serie": "us_inflacao",
+  "id_episodio": "2020",
+  "variacao_pico_vale": 6.56,
+  "meses_ate_vale": 28,
+  "meses_ate_recuperacao": null,
+  "situacao_recuperacao": "nao_se_aplica",
+  "mes_reacao": 1,
+  "id_edicao": "2026.11-ilustrativa"
+ },
+ {
+  "id_serie": "br_inflacao",
+  "id_episodio": "1981",
+  "variacao_pico_vale": 120.17,
+  "meses_ate_vale": 48,
+  "meses_ate_recuperacao": null,
+  "situacao_recuperacao": "nao_se_aplica",
+  "mes_reacao": 1,
+  "id_edicao": "2026.11-ilustrativa"
+ },
+ {
+  "id_serie": "br_inflacao",
+  "id_episodio": "2008",
+  "variacao_pico_vale": 2.03,
+  "meses_ate_vale": 41,
+  "meses_ate_recuperacao": null,
+  "situacao_recuperacao": "nao_se_aplica",
+  "mes_reacao": 2,
+  "id_edicao": "2026.11-ilustrativa"
+ },
+ {
+  "id_serie": "br_inflacao",
+  "id_episodio": "2020",
+  "variacao_pico_vale": 7.77,
+  "meses_ate_vale": 25,
+  "meses_ate_recuperacao": null,
+  "situacao_recuperacao": "nao_se_aplica",
+  "mes_reacao": 1,
+  "id_edicao": "2026.11-ilustrativa"
+ },
+ {
+  "id_serie": "br_cambio",
+  "id_episodio": "1981",
+  "variacao_pico_vale": 25.87,
+  "meses_ate_vale": 22,
+  "meses_ate_recuperacao": null,
+  "situacao_recuperacao": "nao_recuperado",
+  "mes_reacao": 6,
+  "id_edicao": "2026.11-ilustrativa"
+ },
+ {
+  "id_serie": "br_cambio",
+  "id_episodio": "2008",
+  "variacao_pico_vale": 30.55,
+  "meses_ate_vale": 13,
+  "meses_ate_recuperacao": 22,
+  "situacao_recuperacao": "recuperado",
+  "mes_reacao": 9,
+  "id_edicao": "2026.11-ilustrativa"
+ },
+ {
+  "id_serie": "br_cambio",
+  "id_episodio": "2020",
+  "variacao_pico_vale": 28.02,
+  "meses_ate_vale": 4,
+  "meses_ate_recuperacao": null,
+  "situacao_recuperacao": "nao_recuperado",
+  "mes_reacao": 1,
+  "id_edicao": "2026.11-ilustrativa"
+ },
+ {
+  "id_serie": "br_exportacoes",
+  "id_episodio": "1981",
+  "variacao_pico_vale": null,
+  "meses_ate_vale": null,
+  "meses_ate_recuperacao": null,
+  "situacao_recuperacao": "sem_dados",
+  "id_edicao": "2026.11-ilustrativa"
+ },
+ {
+  "id_serie": "br_exportacoes",
+  "id_episodio": "2008",
+  "variacao_pico_vale": -28.96,
+  "meses_ate_vale": 15,
+  "meses_ate_recuperacao": 27,
+  "situacao_recuperacao": "recuperado",
+  "mes_reacao": 12,
+  "id_edicao": "2026.11-ilustrativa"
+ },
+ {
+  "id_serie": "br_exportacoes",
+  "id_episodio": "2020",
+  "variacao_pico_vale": -9.71,
+  "meses_ate_vale": 3,
+  "meses_ate_recuperacao": 7,
+  "situacao_recuperacao": "recuperado",
+  "mes_reacao": 1,
+  "id_edicao": "2026.11-ilustrativa"
+ }
+]

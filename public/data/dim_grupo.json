@@ -1,0 +1,22 @@
+[
+ {
+  "id": "atividade",
+  "nome": "Atividade econômica"
+ },
+ {
+  "id": "trabalho",
+  "nome": "Mercado de trabalho"
+ },
+ {
+  "id": "juros",
+  "nome": "Juros"
+ },
+ {
+  "id": "precos",
+  "nome": "Preços"
+ },
+ {
+  "id": "externo",
+  "nome": "Setor externo"
+ }
+]
